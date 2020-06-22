@@ -1,0 +1,22 @@
+<html>
+  <center>
+  <h1>Bulb</h1>
+    <button type="button" onClick="pranavFunc(1)">Turn on</button>
+     <button type="button" onClick="pranavFunc(2)">Turn Off</button>
+    <br/> <br/>
+    <img id="myimage" src="https://www.w3schools.com/js/pic_bulboff.gif" height="100px" width="100px">
+    </center>
+ <script>
+   function pranavFunc(myvalue)
+   {
+     if(myvalue==1)
+       {
+     document.getElementById("myimage").src="https://www.w3schools.com/js/pic_bulbon.gif";
+       }
+     else
+       {
+         document.getElementById("myimage").src="https://www.w3schools.com/js/pic_bulboff.gif";
+       }
+   }
+  </script>
+  </html>
